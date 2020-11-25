@@ -6,10 +6,10 @@ using System.Text;
 
 namespace Razorpagestutorial.Services
 {
-    public interface IEmployeerepository
+    public interface Irestaurantrepository
     {
-        IEnumerable<Employee> getallemployee();
-        Employee getemployee(int id);
+        IEnumerable<Restaurant> getallemployee();
+        Restaurant getemployee(int id);
 
 
     }

@@ -11,11 +11,11 @@ namespace WEDNESDAY1.Pages.EMPLOYEES
 {
     public class IndexModel : PageModel
     {
-        public IEnumerable<Employee> e { get; set; }
+        public IEnumerable<Restaurant> e { get; set; }
 
-        private readonly IEmployeerepository emp;
+        private readonly Irestaurantrepository emp;
 
-       public IndexModel(IEmployeerepository emp )
+       public IndexModel(Irestaurantrepository emp )
         {
             this.emp = emp;
         }

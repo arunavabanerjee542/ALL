@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Razorpagestutorial.Models
 {
-   public class Employee
+   public class Restaurant
     {
         public int id { get; set; }
         public string name { get; set; }

@@ -7,15 +7,15 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Razorpagestutorial.Models;
 using Razorpagestutorial.Services;
 
-namespace WEDNESDAY1.Pages.EMPLOYEES
+namespace WEDNESDAY1.Pages.RESTAURANT
 {
     public class ViewrazorpageModel : PageModel
     {
 
-        private readonly IEmployeerepository em;
+        private readonly Irestaurantrepository em;
 
-        public Employee ee { get; set; }
-        public ViewrazorpageModel(IEmployeerepository em)
+        public Restaurant ee { get; set; }
+        public ViewrazorpageModel(Irestaurantrepository em)
         {
             this.em = em;
 

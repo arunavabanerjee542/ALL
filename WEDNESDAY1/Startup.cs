@@ -25,7 +25,7 @@ namespace WEDNESDAY1
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
-            services.AddSingleton<IEmployeerepository, Mockemployeerepository>();
+            services.AddSingleton<Irestaurantrepository, Mockrestaurantrepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
