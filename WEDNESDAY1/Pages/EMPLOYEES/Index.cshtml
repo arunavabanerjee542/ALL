@@ -1,0 +1,25 @@
+﻿@page
+@model WEDNESDAY1.Pages.EMPLOYEES.IndexModel
+@{
+}
+
+<h1> VERY GOOD MORNING </h1>
+
+<div class="deck" >
+
+    @foreach (var emp in Model.e)
+    {
+        var path = "~/image" + emp.path;
+
+
+
+    <div class="header" >
+        <h1> @emp.name </h1>
+
+    </div>
+
+    <img src="@path" asp-append-version="true" />
+
+    }
+
+</div>
