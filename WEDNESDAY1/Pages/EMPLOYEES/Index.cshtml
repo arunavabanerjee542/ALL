@@ -3,22 +3,31 @@
 @{
 }
 
-<h1> VERY GOOD MORNING </h1>
+<h1> RESTAURANTS  </h1>
 
-<div class="deck" >
+<div class="card m-3" style="min-width: 18rem; max-width:30.5%;">
+
 
     @foreach (var emp in Model.e)
     {
-        var path = "~/image" + emp.path;
+        var path = "~/image/" + emp.path;
 
 
 
-    <div class="header" >
-        <h1> @emp.name </h1>
+        <div class="header">
+            <h1> @emp.name </h1>
 
-    </div>
+        </div>
 
-    <img src="@path" asp-append-version="true" />
+        <img class="imageThumbnail" src="@path" asp-append-version="true" />
+
+        <div class="card-footer text-center">
+            <a asp-page="/EMPLOYEES/viewrazorpage" asp-route-Name="@emp.name" asp-route-id="@emp.id" class="btn btn-primary m-1">View</a>
+            <a href="#" class="btn btn-primary m-1">Edit</a>
+            <a href="#" class="btn btn-danger m-1">Delete</a>
+        </div>
+    
+
 
     }
 

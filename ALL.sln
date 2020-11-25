@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WEDNESDAY1", "WEDNESDAY1\WEDNESDAY1.csproj", "{C5455E04-8862-49AE-A576-656163190302}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WEDNESDAY1", "WEDNESDAY1\WEDNESDAY1.csproj", "{C5455E04-8862-49AE-A576-656163190302}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Razorpagestutorial.Models", "Razorpagestutorial.Models\Razorpagestutorial.Models.csproj", "{8FE09782-9276-46A7-BB64-BA544B2747B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Razorpagestutorial.Models", "Razorpagestutorial.Models\Razorpagestutorial.Models.csproj", "{8FE09782-9276-46A7-BB64-BA544B2747B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Razorpagestutorial.Services", "Razorpagestutorial.Services\Razorpagestutorial.Services.csproj", "{5CBB4604-DB24-49B2-AAED-49C6A600A198}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Razorpagestutorial.Services", "Razorpagestutorial.Services\Razorpagestutorial.Services.csproj", "{5CBB4604-DB24-49B2-AAED-49C6A600A198}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

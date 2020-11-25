@@ -21,7 +21,7 @@ namespace WEDNESDAY1.Pages
 
         public void OnGet()
         {
-            m = " good morning ";
+            m = "  WELCOME TO INNROAD ";
         }
     }
 }
