@@ -12,6 +12,9 @@ namespace Razorpagestutorial.Models
         public string email { get; set; }
 
         public string path { get; set; }
+
+        public int rooms { get; set; }
+
         public  Dept? department { get; set; }
 
     }

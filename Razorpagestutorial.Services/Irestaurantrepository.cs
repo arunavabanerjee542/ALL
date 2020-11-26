@@ -11,6 +11,8 @@ namespace Razorpagestutorial.Services
         IEnumerable<Restaurant> getallemployee();
         Restaurant getemployee(int id);
 
+        Restaurant updaterestaurant(Restaurant r);
+
 
     }
 }

@@ -1,0 +1,15 @@
+﻿@page
+@model WEDNESDAY1.Pages.RESTAURANT.EditrazorpageModel
+@{
+}
+<h1> edit </h1>
+
+<form method="post" class="mt-3">
+    <input hidden asp-for="@Model.r.id" />
+
+    <input asp-for="@Model.r.rooms" placeholder="Rooms available" />
+
+    <input type="submit" name="UPDATE" />
+
+
+</form>
